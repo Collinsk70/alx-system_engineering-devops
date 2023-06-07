@@ -1,1 +1,2 @@
-#!/bin/bas((count++)) ; dir=$(cd "$(dirname "$0")" && pwd) ; echo "Count: $count" ; echo "Directory: $dir"
+#!/bin/bash
+cwd=$(pwd)
