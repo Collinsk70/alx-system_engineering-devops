@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -u --no-clobber --update --verbose *.html ../
+cp -u -n *.html ..
