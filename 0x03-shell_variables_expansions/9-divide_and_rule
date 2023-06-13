@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%f\n" ($POWER / $DIVIDE)
+printf "%.2f\n" $(awk "BEGIN {printf \"%.2f\", $POWER / $DIVIDE}")
